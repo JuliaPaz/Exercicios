@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightblue;
+            margin: 0px;
+        }
+        header{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+         /* nav{
+          background-color: aliceblue;
+            box-shadow: 1px 1px 1px rgb(0, 113, 139);
+        }*/
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(73, 118, 136);
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+
+        }
+
+        main{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article{
+            background-color: rgb(217, 237, 243);
+            padding:10px;
+            border-radius: 10px;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+         footer{
+            background-color: aliceblue;
+            text-align: center;
+            padding: 4px;
+            margin: 2px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">LInk</a>
+            <a href="#">LInk</a>
+            <a href="#">LInk</a>
+            <a href="#">LInk</a>
+            <a href="#">LInk</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Temas redação Brasil</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex recusandae hic magni deserunt quia numquam, natus officiis maiores enim dicta quidem saepe delectus neque. Dignissimos id porro iure temporibus ea!</p>
+                <aside>
+                    <p>Por Maria Jose</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Noticia sobre os Eua</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel unde tenetur minus temporibus autem obcaecati ex, dolor voluptates earum sit, esse ut nostrum dolores voluptatibus nihil, excepturi nam nulla totam.</p>
+                <aside>
+                    <p>Por Almeida</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Julia Paz</p>
+    </footer>
+
+   <div id="bola"></div>
+
+</body>
+</html>
